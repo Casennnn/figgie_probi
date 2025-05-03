@@ -11,7 +11,7 @@ This repository contains two Python scripts designed to assist players in analyz
    - The probability is deduced using Monte Carlo simulations, providing a statistical approach to determine the likelihood of success.
    - After outputting a chart of probabilities, the program continuously loops, asking for new input. This feature allows users to adapt their strategy in real-time during the game for each new round.
 
-   **Usage**:
+   **Usage**: (make sure objects.py is in the same directory too)
    ```bash
    python goalsuitquantcal.py
    ```
@@ -19,7 +19,7 @@ This repository contains two Python scripts designed to assist players in analyz
    - This script lists all possible combinations of starting hands, sorted in descending order based on the amount of information each hand contains.
    - The calculations assume a 4-player game with a starting hand of 10 cards, providing a comprehensive overview of potential starting hands.
 
-   **Usage**:
+   **Usage**: (make sure objects.py is in the same directory too)
    ```bash
    python infotelllist.py
    ```
